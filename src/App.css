@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient( 274deg, #191c2a 10%, #050c23 100%);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+.todo-container {
+  border-radius: 5px;
+}
+
+.todo-list {
+  flex-direction: column;
+}
+
+.todo {
+  display: flex;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  margin-bottom: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.color-stack {
+  margin-top: 8px;
+}
+.white{
+  color: white;
+}
+/*# sourceMappingURL=App.css.map */
